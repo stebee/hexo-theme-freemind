@@ -1,0 +1,5 @@
+<div class="widget">
+    <% if(theme.twitter_feed) { %>
+    <a class="twitter-timeline" href="https://twitter.com/WhatsPuzzlingUs?ref_src=<%= theme.twitter_feed.code %>">Fetching tweets by @<%= theme.twitter_feed.username %>...</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <% } %>
+</div>
